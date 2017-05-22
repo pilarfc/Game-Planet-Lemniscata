@@ -46,3 +46,16 @@ body {
     height: 30px;
     margin-left: 5px;
 }
+
+#inicio {
+  background-image: url("../img/bienvenida.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: inherit;
+}
+
+#videoInicio {
+  margin-top: 29.9%;
+  max-height: 300px;
+}
