@@ -1,3 +1,48 @@
 body {
     background-image: url("../img/degradado.jpg");
 }
+.tipoLetra{
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+}
+.tipoLetra2{
+    font-family: 'Acme', sans-serif;
+    font-size: 15px;
+    text-align: justify;
+}
+.imagenesModal{
+    width: 200px;
+    height: 200px;
+}
+.centrado{
+    margin-left: 150px;
+}
+.tachado{
+    text-decoration: line-through;
+}
+.letraGris{
+    color:gray;
+}
+.letraRoja{
+    color:red;
+    font-weight: 800;
+}
+
+.tipoLetra3{
+    font-size: 30px;
+}
+.tipoLetraPequena{
+    font-size: 10px;
+}
+.alineadoDer{
+    margin-left: 250px;
+}
+.color{
+    background-color: orangered;
+}
+.tamanoCarrito{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+}
