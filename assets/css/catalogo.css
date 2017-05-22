@@ -4,7 +4,43 @@ body{
 	width: 100%;
 	height: 100%;
 }
-
+.container{
+	position: relative;
+	width: 50%;
+}
+.imagen{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.overlay{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color:#e0cede;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+.container:hover .overlay{
+	width: 100%;
+}
+.boton{
+	position: absolute;
+	overflow: hidden;
+	top: 50%;
+	left: 50%;
+  	transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%)
+}
+.cuadro{
+	background: white;
+}
+.imagen-juegos{
+	background:#6e43ad;
+}
 #catalogo{
 	padding-left: 2%;
 	padding-top: 5%;
@@ -12,9 +48,23 @@ body{
 	background: #49227a;
 	height: auto;
 }
-#catalogo img {
+/*#catalogo img {
 	height: 200px;
 
+}
+.row:hover{
+	background: transparent;
+}
+.imagen-juegos{
+	background: pink;
+	border-radius: 10%;
+	padding-bottom: 3%;
+}
+
+.imagen-juegos :hover{
+	background: red;
+	height: auto;
+	border-radius: 50%;
 }
 .imagen{
 	display: block;
@@ -23,14 +73,15 @@ body{
     height: 270px;
     width: 100%;
     line-height: 1.42857143;
-    background-color:#d4c9d8;
-    border: 1px solid :#555b77;
+    background-color:#fff;
+    border: 1px solid :#555;
     border-radius: 10px;
 }
 .imagen :hover{
 	cursor: pointer;
-	transform: scale(1.1);
-	background: transparent;
+	transform: scale(1.2);
+	border-radius: 10%;
+	background: blue;
 }
 
 .texto-imagen{
@@ -40,4 +91,4 @@ body{
 }
 .boton{
 	text-align: center;
-}
+}*/
