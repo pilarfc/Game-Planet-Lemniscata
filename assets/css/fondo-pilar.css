@@ -1,5 +1,6 @@
 body {
     background-image: url("../img/degradado.jpg");
+    text-align: center;
 }
 .tipoLetra{
     font-family: 'Acme', sans-serif;
@@ -79,4 +80,23 @@ body {
   #inicio-mb {
     display: block;
   }
+}
+
+
+.contactanos{
+  background-image: url(https://cdn.dribbble.com/users/39185/screenshots/3374078/planet_1x.jpg);
+  background-size: 100%;
+  padding-left: 8.333%;
+  padding-right: 8.333%;
+}
+.contacto{
+  margin-top: 2%;
+}
+.botonContacto{
+  width: 50%;
+  margin-top: 7%;
+}
+
+#textoFormulario {
+    color: white;
 }
