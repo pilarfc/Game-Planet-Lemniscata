@@ -1,3 +1,82 @@
 body {
     background-image: url("../img/degradado.jpg");
 }
+.tipoLetra{
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+}
+.tipoLetra2{
+    font-family: 'Acme', sans-serif;
+    font-size: 15px;
+    text-align: justify;
+}
+.imagenesModal{
+    width: 200px;
+    height: 200px;
+}
+.centrado{
+    margin-left: 150px;
+}
+.tachado{
+    text-decoration: line-through;
+}
+.letraGris{
+    color:gray;
+}
+.letraRoja{
+    color:red;
+    font-weight: 800;
+}
+
+.tipoLetra3{
+    font-size: 30px;
+}
+.tipoLetraPequena{
+    font-size: 10px;
+}
+.alineadoDer{
+    margin-left: 250px;
+}
+.color{
+    background-color: orangered;
+}
+.tamanoCarrito{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+}
+
+#inicio {
+  background-image: url("../img/bienvenida.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: inherit;
+}
+
+#videoInicio {
+  margin-top: 29.9%;
+  max-height: 300px;
+}
+
+#inicio-mb {
+  display: none;
+}
+
+
+@media (max-width: 1199px){
+  #videoInicio {
+    margin-top: 39.9%;
+    height: 80%;
+    max-height: 300px;
+  }
+}
+@media (max-width: 992px) {
+  #videoInicio {
+    display: none!important;
+  }
+  #inicio-mb {
+    display: block;
+  }
+}

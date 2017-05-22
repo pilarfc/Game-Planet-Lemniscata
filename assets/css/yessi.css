@@ -1,0 +1,42 @@
+.catalogo{
+	background-color: black;
+	width: 90%;
+}
+
+.catalogo h1{
+	color: white;
+	text-align: center;
+}
+
+.catalogo img{
+	height: 200px;
+	margin: 10px;
+	padding-left: 9%;
+}
+
+.color a{
+	display: none;
+
+}
+
+.color:hover{
+	background-color: purple;
+	border-radius: 50%;
+	border:none;
+	text-align: center;
+}
+
+.color:hover p , .color:hover h3{
+	color: #f2f2f2;
+}
+
+.color:hover a{
+	display: block;
+	width: 30%;
+	margin-left: 35%;
+}
+
+#nintendoModal:hover , #xboxModal:hover , #playModal:hover{
+	transition: transform ease .3s;
+	transform:scale(1.2);
+}
