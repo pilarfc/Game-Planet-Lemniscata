@@ -16,18 +16,27 @@
 
 .color a{
 	display: none;
+
 }
 
 .color:hover{
 	background-color: purple;
-	color: white;
 	border-radius: 50%;
 	border:none;
 	text-align: center;
+}
+
+.color:hover p , .color:hover h3{
+	color: #f2f2f2;
 }
 
 .color:hover a{
 	display: block;
 	width: 30%;
 	margin-left: 35%;
+}
+
+#nintendoModal:hover , #xboxModal:hover , #playModal:hover{
+	transition: transform ease .3s;
+	transform:scale(1.2);
 }
