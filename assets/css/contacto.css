@@ -1,0 +1,16 @@
+body{
+  background-color: #000;
+  text-align: center;
+  }
+.contactanos{
+  background-color: whitesmoke;
+  padding-left: 8.333%;
+  padding-right: 8.333%;
+}
+.contacto{
+  margin-top: 2%;
+}
+.botonContacto{
+  width: 50%;
+  margin-top: 7%;
+}
