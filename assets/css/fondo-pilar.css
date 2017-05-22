@@ -1,5 +1,6 @@
 body {
     background-image: url("../img/degradado.jpg");
+    text-align: center;
 }
 
 #inicio {
@@ -13,4 +14,18 @@ body {
 #videoInicio {
   margin-top: 29.9%;
   max-height: 300px;
+}
+
+
+.contactanos{
+  background-color: whitesmoke;
+  padding-left: 8.333%;
+  padding-right: 8.333%;
+}
+.contacto{
+  margin-top: 2%;
+}
+.botonContacto{
+  width: 50%;
+  margin-top: 7%;
 }
